@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script type="text/javascript"></script>
+
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div style="float: left; width: 80%;">
+    <ul>
+        <div class="results" id="Kitten1">
+            <h1>Kitten 1 : Meaw</h1>
+            <p id="count1"></p>
+            <img src="Kitten1.jpg" style="width:500px;height:350px;" />
+        </div>
+        <div style="display:none" id="Kitten2">
+            <h1>Kitten 2 : Chococat</h1>
+            <p id="count2"></p>
+            <img src="Kitten2.jpg" style="width:500px;height:350px;"/>
+        </div>
+        <div style="display:none" id="Kitten3">
+            <h1>Kitten 3 : TwinCats</h1>
+            <p id="count3"></p>
+            <img src="Kitten3.jpg" style="width:500px;height:350px;"/>
+        </div>
+        <div style="display:none" id="Kitten4">
+            <h1>Kitten 4 : Kitty</h1>
+            <p id="count4"></p>
+            <img src="Kitten4.jpg" style="width:500px;height:350px;"/>
+        </div>
+        <div style="display:none" id="Kitten5">
+            <h1>Kitten 5 : Persian</h1>
+            <p id="count5"></p>
+            <img src="Kitten5.jpg" style="width:500px;height:350px;"/>
+        </div>
+    </ul>
+    </div>
+
+    <div style="float: right; width: 20%;">
+    <ul>
+        <p><b>Kitten list:</b></p>
+        <li><a href="#" onclick="showImage('Kitten1');">Kitten 1</a></li>
+        <li><a href="#" onclick="showImage('Kitten2');">Kitten 2</a></li>
+        <li><a href="#" onclick="showImage('Kitten3');">Kitten 3</a></li>
+        <li><a href="#" onclick="showImage('Kitten4');">Kitten 4</a></li>
+        <li><a href="#" onclick="showImage('Kitten5');">Kitten 5</a></li>
+    </ul>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
