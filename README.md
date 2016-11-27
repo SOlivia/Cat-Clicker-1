@@ -1,1 +1,1 @@
-# Cat-Clicker-1
+# Cat-Clicker-Premium
